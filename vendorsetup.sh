@@ -1,1 +1,1 @@
-add_lunch_combo lineage_ugglite-userdebugy
+add_lunch_combo lineage_ugglite-userdebug
