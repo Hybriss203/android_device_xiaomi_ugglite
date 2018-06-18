@@ -151,7 +151,7 @@ TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
 
 # Double Tap To Wake
-TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Filesystem
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
