@@ -299,6 +299,8 @@ on post-fs-data
 	# DT2W
 	chown system system /sys/devices/soc/78b7000.i2c/i2c-3/3-0038//input/input2/device/fts_gesture_mode
 	chmod 660 /sys/devices/soc/78b7000.i2c/i2c-3/3-0038//input/input2/device/fts_gesture_mode
+	chown system system /sys/goodix_gesture/gesture_enable
+	chmod 660 /sys/goodix_gesture/gesture_enable
 	
     #Create a folder for SRS to be able to create a usercfg file
     mkdir /data/data/media 0770 media media
