@@ -1,1 +1,1 @@
-add_lunch_combo dot_ugglite-userdebug
+add_lunch_combo dnd_ugglite-userdebug
