@@ -1,1 +1,1 @@
-add_lunch_combo crdroid_ugglite-userdebug
+add_lunch_combo aosp_ugglite-userdebug
