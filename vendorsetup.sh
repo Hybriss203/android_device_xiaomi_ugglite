@@ -1,1 +1,1 @@
-add_lunch_combo viper_ugglite-userdebug
+add_lunch_combo dot_ugglite-userdebug
