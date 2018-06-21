@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/ugglite/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+$(call inherit-product, vendor/dnd/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := ugglite
 PRODUCT_BRAND := Xiaomi
-PRODUCT_NAME := dot_ugglite
+PRODUCT_NAME := dnd_ugglite
 BOARD_VENDOR := Xiaomi
 PRODUCT_MODEL := Redmi Note 5A
 PRODUCT_MANUFACTURER := Xiaomi
