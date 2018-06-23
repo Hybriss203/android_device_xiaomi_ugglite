@@ -153,7 +153,7 @@ USE_OPENGL_RENDERER := true
 
 # Double Tap To Wake
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc/78b7000.i2c/i2c-3/3-0038//input/input2/device/fts_gesture_mode"
-TARGET_TAP_TO_WAKE_NODE := "/sys/goodix_gesture/gesture_enable"
+TARGET_TAP_TO_WAKE_NODE += "/sys/goodix_gesture/gesture_enable"
 
 # Filesystem
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
