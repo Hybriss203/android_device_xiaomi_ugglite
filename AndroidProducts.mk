@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ugglite.mk
+    $(LOCAL_DIR)/aosp_ugglite.mk \
+    $(LOCAL_DIR)/device.mk
